@@ -6,7 +6,7 @@ I am trying to implement the 15 puzzle.
 
 
 1. INSTALLATION<br>
- git clone into a local directory.<br>
+ git clone or download zip and unpack into a local directory.<br>
  download and install gradle build tool from http://www.gradle.org<br>
  run "gradle build copyDeps runMain" to play.<br>
 
