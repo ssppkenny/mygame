@@ -56,7 +56,7 @@ test {
 
 }
 
-task runMain(type: JavaExec, dependsOn: classes, description: "runMain description") {
+task runMain(type: JavaExec, dependsOn: [classes, download], description: "runMain description") {
   
   main = 'games.MyGame'
   classpath sourceSets.main.output.classesDir
