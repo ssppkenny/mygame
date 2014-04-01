@@ -12,7 +12,7 @@ repositories {
 }
 
 tasks.withType(JavaExec) {
-  systemProperty 'java.library.path', '/usr/lib/x86_64-linux-gnu/jni'
+  systemProperty 'java.library.path', 'libs/natives'
 }
 
 dependencies {
@@ -20,6 +20,14 @@ dependencies {
   compile files('libs/slick.jar')
   
 }
+
+task download << {
+   
+   ant.get(src: "http://slick.ninjacave.com/slick.zip", dest: "libs")
+   ant.unzip(src: "libs/slick.zip", dest: "libs/natives/")
+}
+
+
 
 //sourceSets {
 //  main {
@@ -64,4 +72,5 @@ jar.doFirst {
         )
     }
 }
+
 
