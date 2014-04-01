@@ -18,7 +18,7 @@ I am trying to implement the 15 puzzle.
  run "gradle build copyDeps runMain" to play.<br>
  
 
-3. PLAYING RULES
+3. PLAYING RULES<br>
 <img src="https://github.com/ssppkenny/mygame/blob/master/res/screen.jpg?raw=true" width="25%" height="25%">
 
 The button S makes shuffle of the cells.<br>
