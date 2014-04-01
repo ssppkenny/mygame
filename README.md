@@ -1,5 +1,5 @@
-mygame
-======
+15 Puzzle
+========
 
 This is a little project, where I am using slick2D library.
 I am trying to implement the 15 puzzle. 
