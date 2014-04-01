@@ -5,7 +5,7 @@ This is a little project, where I am using slick2D library.
 I am trying to implement the 15 puzzle. 
 
 
-1. INSTALLATION
+1. INSTALLATION<br>
  git clone into a local directory.
  download and install gradle build tool from http://www.gradle.org
  run "gradle build copyDeps runMain" to play.
