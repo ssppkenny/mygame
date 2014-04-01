@@ -10,7 +10,7 @@ I am trying to implement the 15 puzzle.
  download and install gradle build tool from http://www.gradle.org<br>
  run "gradle build copyDeps runMain" to play.<br>
 
-2.INSTALLATION WINDOWS<br> 
+2. INSTALLATION WINDOWS<br> 
  download and unpack zip into a local directory.<br>
  download and unpack slick.zip from http://slick.ninjacave.com into the same directory<br>
  set JAVA_HOME<br>
