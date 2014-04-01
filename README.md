@@ -14,7 +14,8 @@ I am trying to implement the 15 puzzle.
  download and unpack zip into a local directory.<br>
  download and unpack slick.zip from http://slick.ninjacave.com into the same directory<br>
  set JAVA_HOME to where you have JDK 7 or higher<br>
- change the dependency version of lwjgl to 2.9.1<br>
+ change the dependency version of lwjgl to 2.9.1 so it<br>
+ looks like this compile group: 'org.lwjgl.lwjgl', name: 'lwjgl', version: '2.9.1'<br>
  run "gradle build copyDeps runMain" to play.<br>
  
 
