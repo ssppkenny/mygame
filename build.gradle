@@ -1,0 +1,67 @@
+apply plugin: 'java'
+apply plugin: 'eclipse'
+
+repositories {
+  
+  mavenCentral()
+  mavenLocal()
+  flatDir {
+    dirs 'libs'
+  }
+
+}
+
+tasks.withType(JavaExec) {
+  systemProperty 'java.library.path', '/usr/lib/x86_64-linux-gnu/jni'
+}
+
+dependencies {
+  compile group: 'org.lwjgl.lwjgl', name: 'lwjgl', version: '2.8.4'
+  compile files('libs/slick.jar')
+  
+}
+
+//sourceSets {
+//  main {
+//    java {
+//      srcDir 'src'
+//    }
+//  }
+//}
+
+processResources {
+      from(projectDir) {
+         include 'res/**'
+     }
+}
+
+task copyDeps(type: Copy) {
+  from configurations.compile
+  into "${buildDir}/libs"
+}
+
+test {
+  
+  testLogging {
+     events "passed", "skipped", "failed"
+  }
+
+}
+
+task runMain(type: JavaExec, dependsOn: classes, description: "runMain description") {
+  
+  main = 'games.MyGame'
+  classpath sourceSets.main.output.classesDir
+  classpath configurations.runtime
+
+}
+
+jar.doFirst {
+    manifest {
+        attributes ('Manifest-Version': '1.0', 
+                    'Main-Class': 'games.MyGame',
+                    'Class-Path': configurations.compile.collect { it.getName() }.join(' ')
+        )
+    }
+}
+
