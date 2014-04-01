@@ -10,7 +10,7 @@ I am trying to implement the 15 puzzle.
  download and install gradle build tool from http://www.gradle.org
  run "gradle build copyDeps runMain" to play.
 
-2. PLAYING
+2. PLAYING RULES
 <pre>
  ______________________
 ¦     ¦     ¦     ¦     ¦
@@ -27,8 +27,8 @@ I am trying to implement the 15 puzzle.
 ¦_____¦_____¦_____¦_____¦
 </pre>
 
-1. The button S makes shuffle of the cells.
-2. Escape cloeses the game.
-3. Arrow keys move the cells.
-4. Clicking on the cell neighboring the empty cell moves it.
+The button S makes shuffle of the cells.
+Escape cloeses the game.
+Arrow keys move the cells.
+Clicking on the cell neighboring the empty cell moves it.
 
