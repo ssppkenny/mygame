@@ -40,5 +40,5 @@ Escape closes the game.<br>
 Arrow keys move the cells.<br>
 Clicking on the cell neighboring the empty cell moves it.<br>
 
-<img src="https://github.com/ssppkenny/mygame/blob/master/res/screen.jpg">
+<img src="https://github.com/ssppkenny/mygame/blob/master/res/screen.jpg?raw=true">
 
