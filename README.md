@@ -11,7 +11,7 @@ I am trying to implement the 15 puzzle.
  run "gradle build copyDeps runMain" to play.
 
 2. PLAYING
-<code>
+<![CDATA[
  ______________________
 ¦     ¦     ¦     ¦     ¦
 ¦  1  ¦  2  ¦  3  ¦  4  ¦
@@ -25,7 +25,7 @@ I am trying to implement the 15 puzzle.
 ¦     ¦     ¦     ¦     ¦
 ¦  13 ¦  14 ¦  15 ¦     ¦
 ¦_____¦_____¦_____¦_____¦
-</code>
+]]>
 
 1. The button S makes shuffle of the cells.
 2. Escape cloeses the game.
