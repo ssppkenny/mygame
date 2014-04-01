@@ -13,7 +13,7 @@ I am trying to implement the 15 puzzle.
 2. PLAYING
  ______________________
 ¦     ¦     ¦     ¦     ¦<br>
-¦  1  ¦  2  ¦  3  ¦  4  ¦<br>
+¦&nbsp&nbsp1  ¦  2  ¦  3  ¦  4  ¦<br>
 ¦_____¦_____¦_____¦_____¦<br>
 ¦     ¦     ¦     ¦     ¦<br>
 ¦  5  ¦  6  ¦  7  ¦  8  ¦<br>
