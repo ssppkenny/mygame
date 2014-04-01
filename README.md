@@ -5,12 +5,20 @@ This is a little project, where I am using slick2D library.
 I am trying to implement the 15 puzzle. 
 
 
-1. INSTALLATION<br>
+1. INSTALLATION LINUX<br>
  git clone or download zip and unpack into a local directory.<br>
  download and install gradle build tool from http://www.gradle.org<br>
  run "gradle build copyDeps runMain" to play.<br>
 
-2. PLAYING RULES
+2.INSTALLATION WINDOWS<br> 
+ download and unpack zip into a local directory.<br>
+ download and unpack slick.zip from http://slick.ninjacave.com into the same directory<br>
+ set JAVA_HOME
+ change the dependency version of lwjgl to 2.9.1
+ run "gradle build copyDeps runMain" to play.<br>
+ 
+
+3. PLAYING RULES
 <pre>
 ________________________
 ¦     ¦     ¦     ¦     ¦
