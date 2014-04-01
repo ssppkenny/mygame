@@ -28,7 +28,7 @@ ________________________
 </pre>
 
 The button S makes shuffle of the cells.<br>
-Escape cloeses the game.<br>
+Escape closes the game.<br>
 Arrow keys move the cells.<br>
 Clicking on the cell neighboring the empty cell moves it.<br>
 
