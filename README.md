@@ -13,8 +13,8 @@ I am trying to implement the 15 puzzle.
 2.INSTALLATION WINDOWS<br> 
  download and unpack zip into a local directory.<br>
  download and unpack slick.zip from http://slick.ninjacave.com into the same directory<br>
- set JAVA_HOME
- change the dependency version of lwjgl to 2.9.1
+ set JAVA_HOME<br>
+ change the dependency version of lwjgl to 2.9.1<br>
  run "gradle build copyDeps runMain" to play.<br>
  
 
