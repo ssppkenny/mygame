@@ -19,26 +19,12 @@ I am trying to implement the 15 puzzle.
  
 
 3. PLAYING RULES
-<pre>
-________________________
-¦     ¦     ¦     ¦     ¦
-¦  1  ¦  2  ¦  3  ¦  4  ¦
-¦_____¦_____¦_____¦_____¦
-¦     ¦     ¦     ¦     ¦
-¦  5  ¦  6  ¦  7  ¦  8  ¦
-¦_____¦_____¦_____¦_____¦
-¦     ¦     ¦     ¦     ¦
-¦  9  ¦  10 ¦  11 ¦  12 ¦
-¦_____¦_____¦_____¦_____¦
-¦     ¦     ¦     ¦     ¦
-¦  13 ¦  14 ¦  15 ¦     ¦
-¦_____¦_____¦_____¦_____¦
-</pre>
+<img src="https://github.com/ssppkenny/mygame/blob/master/res/screen.jpg?raw=true" width="25%" height="25%">
 
 The button S makes shuffle of the cells.<br>
 Escape closes the game.<br>
 Arrow keys move the cells.<br>
 Clicking on the cell neighboring the empty cell moves it.<br>
 
-<img src="https://github.com/ssppkenny/mygame/blob/master/res/screen.jpg?raw=true" width="25%" height="25%">
+
 
