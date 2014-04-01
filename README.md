@@ -6,9 +6,9 @@ I am trying to implement the 15 puzzle.
 
 
 1. INSTALLATION<br>
- git clone into a local directory.
- download and install gradle build tool from http://www.gradle.org
- run "gradle build copyDeps runMain" to play.
+ git clone into a local directory.<br>
+ download and install gradle build tool from http://www.gradle.org<br>
+ run "gradle build copyDeps runMain" to play.<br>
 
 2. PLAYING RULES
 <pre>
@@ -27,8 +27,8 @@ I am trying to implement the 15 puzzle.
 ¦_____¦_____¦_____¦_____¦
 </pre>
 
-The button S makes shuffle of the cells.
-Escape cloeses the game.
-Arrow keys move the cells.
-Clicking on the cell neighboring the empty cell moves it.
+The button S makes shuffle of the cells.<br>
+Escape cloeses the game.<br>
+Arrow keys move the cells.<br>
+Clicking on the cell neighboring the empty cell moves it.<br>
 
